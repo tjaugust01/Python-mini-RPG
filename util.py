@@ -4,7 +4,7 @@ from type import Room, RoomType, NPC, GameConfig, Player, Item
 GAME_CONFIG = GameConfig(
     rows=3,
     rooms_per_row=3,
-    monster_count=2,
+    monster_count=0,
 )
 
 def print_intro():
